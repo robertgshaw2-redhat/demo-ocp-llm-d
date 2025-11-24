@@ -26,8 +26,8 @@ Run the generator:
 
 ```bash
 python test-data-generator.py \
-   --target-prefix-words 5000 \
-   --target-continuation-words 1000 \
+   --target-prefix-words 3000 \
+   --target-continuation-words 500 \
    --num-pairs 300 \
    --chunk-size 50 \
    --output-tokens 250
